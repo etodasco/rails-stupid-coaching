@@ -1,17 +1,16 @@
-<form action="/answer" data-turbo="false">
-  <input type="text" name="answer">
-  <input type="submit" value="Ask !">
-</form>
 
-<%# <div class="container">
-  <h1>Stupid Coaching</h1>
-<label for="ask coach">Ask your coach anything:</label>
-  <div class="input-group mb-3">
-    <div class="col-8">
-      <input type="text" class="form-control" aria-label="Coaches Answers" aria-describedby="basic-addon2">
-  </div>
-    <div class="input-group-append">
-      <button class="btn btn-primary" id="basic-addon2">Ask !</button>
+
+<form action="/answer" data-turbo="false">
+    <div class="container">
+    <h1>Stupid Coaching</h1>
+    <label for="ask coach">Ask your coach anything:</label>
+    <div class="input-group mb-3">
+        <div class="col-8">
+        <input type="text" name="answer" class="form-control" aria-label="Coaches Answers" aria-describedby="basic-addon2">
     </div>
-  </div>
-</div> %>
+        <div class="input-group-append">
+        <button class="btn btn-primary" type="submit" value="Ask !" id="basic-addon2">Ask !</button>
+        </div>
+    </div>
+    </div>
+</form>
